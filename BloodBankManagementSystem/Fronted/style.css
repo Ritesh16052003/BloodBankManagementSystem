@@ -1,0 +1,375 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+
+}
+
+#nav {
+    width: 100%;
+    height: 48px;
+    color: aliceblue;
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+    /* position:  fixed;
+    z-index: 99; */
+   
+}
+
+#nav h1 {
+    font-size: 20px;
+    font-weight: normal;
+    padding-left: 8px;
+}
+
+#nav #nav1 {
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+#nav #nav2 {
+    height: auto;
+    width: auto;
+   margin-left: 450px;
+   /* padding-left: 10px; */
+}
+
+span{
+     padding-left: 20px;
+}
+
+span a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    height: 500px;
+  /* width: 100%; */
+  /* margin: 0 auto; */
+  text-align: center;
+  /* padding-top: 50px; */
+
+  /* background-color: aqua; */
+  
+}
+  
+.slider-wrapper {
+    height: 100%;
+    overflow: hidden;
+    margin: 10px 10px 0 10px;
+    border-radius: 13px;
+    /* background-color: red; */
+
+} 
+.slider {
+    /* display: flex;
+    transition: transform 0.5s ease; */
+    overflow: hidden;
+   
+}
+.slider img {
+    width: 100%;
+    height: 100%;
+  }
+  
+/* .slide {
+    flex: 0 0 auto;
+    width: 200px; /* Adjust according to your needs */
+   /* height: 200px; /* Adjust according to your needs */
+   /* margin: 0 10px;
+    /* background-color: #f0f0f0; */
+    /*display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: blueviolet;
+    
+} */
+
+
+
+
+
+/* .container{
+    height: 500px;
+    margin: 10px 10px 0 10px;
+     /* display: flex; */
+
+    */
+
+.container  .slid  {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 25px;
+    height:25px;
+    border: 2px solid black;
+    background-color: rgba(11, 11, 11, 0.1);
+    cursor: pointer;
+    /* z-index: 3; */
+
+} 
+
+ .container .slid:hover{
+    background-color: rgba(255,255,255,0.2);
+} 
+
+ .container .slid span{
+    font-size: 22px;
+    color: black;
+    line-height: 25px;
+
+} 
+
+ .container .next{
+    right: 0;
+
+}
+
+.dot-slider{
+    text-align: center;
+    position: absolute;
+    bottom: 8px;
+    left: 45%;
+    /* background: rgba(0,0,0,0.8); */ 
+    padding: 5px 10px;
+    height:20px;
+    border-radius: 17px;
+}
+
+.dot {
+    cursor: pointer;
+    height: 5px;
+    width: 5px;
+    border-radius: 100%;
+    background: #bbb;
+    display: inline-block;
+    /* margin: 0 2px; */
+} 
+
+.container1 {
+    height: 550px;
+    margin-top: 80px;
+    /* background-color: #000; */
+    
+}
+
+.container1 .info{
+    height: 50px;
+    text-align: center;
+    /* background-color: red; */
+}
+
+.container1 .cards {
+    width: 100%;
+    height: 100%;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: yellow; */
+   
+
+}
+
+.container1 .cards .card {
+    text-align: center;
+    /* background-color: aqua; */
+}
+  
+.container1 .card button {
+    border: none;
+    outline: 0;
+    border-radius: 30px;
+    padding: 11px;
+    color: white;
+    background-color: brown;
+    /* text-align: center; */
+    cursor: pointer;
+    font-size: 13px;
+    transform: translateY(50px);
+  }
+  
+.card button:hover {
+    opacity: 0.7;
+  }
+.container2{
+    height: 630px;
+    display: flex;
+    /* margin-top: 130px; */
+    /* background-color: red; */
+    margin: 130px 10px 0 10px;
+}
+.container2 .text {
+    width: 50%;
+    height: 100%;
+    /* background-color: yellow; */
+}
+
+.container2 .image{
+    width: 50%;
+    height: 100%;
+
+}
+ 
+.container3 {
+    height: 350px;
+    margin-top: 130px;
+    /* background-color: aquamarine; */
+}
+
+.container3 .slide-images {
+    height: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background-color: blue; */
+}
+
+.slide-images .images {
+    width: 375px;
+    height: 215px;
+    
+    /* background-color: blueviolet; */
+}
+
+.container4 {
+    height: 350px;
+    margin-top: 70px;
+    /* background-color: aquamarine; */
+
+}
+
+.container4 .slider-videos {
+    height: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background-color: blueviolet; */
+    
+}
+.slider-videos .video {
+    width: 375px;
+    height: 215px;
+    /* background-color: black; */
+
+}
+
+.container5{
+    height: 350px;
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: aquamarine; */
+    /* margin: 70px 10px 0 10px; */
+
+}
+
+.container5 .slider-name {
+   
+    height: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: blueviolet; */
+    background-color: rgba(224, 221, 221, 0.1);
+
+}
+ .container5 .slider-name .slide{
+    position: absolute;
+    top: 491%;
+    transform: translateY(-50%);
+    width: 30px;
+    height:30px;
+    border-radius: 225%;
+    border: 2px solid white;
+    background-color: rgba(98, 95, 95, 0.1);
+    cursor: pointer;
+
+} 
+.container5 .slide:hover{
+    background-color:rgba(255,255,255,0.1);
+}
+
+.container5 .slide span{
+    font-size: 15px;
+    color:black;
+    line-height: 30px;
+
+}
+.container5 .next{
+    right: 0;
+
+}
+
+.container6 {
+    height: 500px;
+    margin-top: 70px;
+
+}
+.container6 .inside-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 40px;
+}
+
+.inside-container .icon { 
+    color: brown; 
+    padding-right: 17px;
+} 
+ 
+.icon .fa-solid { 
+    font-size:26px; 
+} 
+
+
+.container7{
+    height: 250px;
+    margin-top: 130px;
+    border-top: 1px solid #bbb;
+    /* background-color: red; */
+}
+
+.container7 .container-info{
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: aqua; */
+
+}
+
+.container-info .info {
+    width: 25%;
+    height: 100%; 
+    padding-left: 40px;
+    padding-top: 35px;
+    line-height: 28px;
+}
+
+.container-info .info a  {
+    font-size: small;
+    font-weight: 500;
+}
+.container-info .info .icon { 
+    color:brown; 
+    /* padding-right: 17px; */
+} 
+ 
+.icon .fa-brands { 
+    font-size:25px; 
+} 
+
+ 
+
+
